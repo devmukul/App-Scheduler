@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Scheduler (Android Code Challenge)</string>
+    <string name="no_service">No service in the database.\n Create new one by clicking the add button at the top</string>
+
+    <string name="no_results">No results</string>
+    <string name="no_scheduling_set">No scheduling set</string>
+    <string name="search">Search</string>
+    <string name="search_menu_title">Search</string>
+</resources>

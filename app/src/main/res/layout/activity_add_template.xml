@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/tTopBar"-->
+<!--        android:background="?attr/colorPrimary"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        android:elevation="4dp"-->
+<!--        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+<!--        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+<!--    <ScrollView-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="16dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/colorPrimary"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="24dp"-->
+<!--                android:text="@string/app" />-->
+
+<!--            <LinearLayout-->
+<!--                android:orientation="horizontal"-->
+<!--                android:id="@+id/lAppSelector"-->
+<!--                android:background="@drawable/black_transparent_standard_drawable"-->
+<!--                android:padding="5dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:baselineAligned="false">-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:layout_width="@dimen/header_circle_radius_large"-->
+<!--                    android:layout_height="@dimen/header_circle_radius_large">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/iAppIcon"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:src="@mipmap/ic_help_outline_black_48dp"-->
+<!--                        android:layout_centerInParent="true" />-->
+<!--                </RelativeLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    <TextView-->
+<!--                        android:textSize="16sp"-->
+<!--                        android:textColor="@color/blue_grey_900"-->
+<!--                        android:ellipsize="end"-->
+<!--                        android:id="@+id/tAppName"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:singleLine="true" />-->
+
+<!--                    <TextView-->
+<!--                        android:textSize="12sp"-->
+<!--                        android:textColor="@color/blue_grey_500"-->
+<!--                        android:ellipsize="end"-->
+<!--                        android:id="@+id/tAppPackageName"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:singleLine="true" />-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+
+<!--            <TextView-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/colorPrimary"-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="@string/name" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/eName"-->
+<!--                android:visibility="gone"-->
+<!--                android:hint="@string/name"-->
+<!--                android:inputType="none|text|textCapSentences|textMultiLine"-->
+<!--                style="@style/WizardEditTextStyle" />-->
+
+<!--            <TextView-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/colorPrimary"-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="@string/text" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/eText"-->
+<!--                android:visibility="gone"-->
+<!--                android:hint="@string/text"-->
+<!--                android:inputType="none|text|textCapSentences|textMultiLine"-->
+<!--                style="@style/WizardEditTextStyle" />-->
+
+<!--            <TextView-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/colorPrimary"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="@string/scheduling" />-->
+
+<!--            <LinearLayout-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                    <ImageButton-->
+<!--                        android:layout_gravity="center_vertical"-->
+<!--                        android:id="@+id/bEnable"-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:src="@mipmap/ic_alarm_off_white_24dp" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:id="@+id/groupText"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:id="@+id/lHour"-->
+<!--                        android:background="@drawable/black_transparent_standard_drawable"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:src="@mipmap/ic_access_time_black_18dp"-->
+<!--                            android:paddingEnd="10dp" />-->
+
+<!--                        <TextView-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:ellipsize="end"-->
+<!--                            android:id="@+id/tHour"-->
+<!--                            android:text="@string/set_scheduling_start"-->
+<!--                            android:singleLine="true"-->
+<!--                            style="@style/StandardTextViewTitleStyle" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:id="@+id/lDate"-->
+<!--                        android:background="@drawable/black_transparent_standard_drawable"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:src="@mipmap/ic_event_note_black_18dp"-->
+<!--                            android:paddingEnd="10dp" />-->
+
+<!--                        <TextView-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:ellipsize="start"-->
+<!--                            android:id="@+id/tDate"-->
+<!--                            android:text="DATE"-->
+<!--                            android:singleLine="true"-->
+<!--                            style="@style/GenericGreyTextViewSubTitleStyle" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:visibility="gone"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <TextView-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:textColor="@color/blue_grey_300"-->
+<!--                            android:ellipsize="start"-->
+<!--                            android:id="@+id/tStatus"-->
+<!--                            android:text="OFF"-->
+<!--                            android:singleLine="true"-->
+<!--                            style="@style/GenericTextView3rdLevelStyle" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:visibility="gone"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <CheckBox-->
+<!--                            android:id="@+id/cConfirmTask"-->
+<!--                            android:focusable="false"-->
+<!--                            android:visibility="visible"-->
+<!--                            android:text="@string/task"-->
+<!--                            android:freezesText="false"-->
+<!--                            style="@style/WizardCheckBoxStyle" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:src="@mipmap/ic_repeat_black_18dp"-->
+<!--                            android:paddingEnd="10dp" />-->
+
+<!--                        <CheckBox-->
+<!--                            android:id="@+id/cRepeat"-->
+<!--                            android:focusable="false"-->
+<!--                            android:visibility="visible"-->
+<!--                            android:text="Repeat task every"-->
+<!--                            android:freezesText="false"-->
+<!--                            style="@style/WizardCheckBoxStyle" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:id="@+id/lInterval"-->
+<!--                        android:visibility="gone"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:orientation="vertical"-->
+<!--                            android:padding="5dp"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_weight="1">-->
+
+<!--                            <EditText-->
+<!--                                android:id="@+id/eInterval"-->
+<!--                                android:text="1"-->
+<!--                                android:hint="Interval"-->
+<!--                                android:singleLine="true"-->
+<!--                                android:maxLength="3"-->
+<!--                                android:inputType="number"-->
+<!--                                style="@style/WizardEditTextStyle" />-->
+<!--                        </LinearLayout>-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:orientation="vertical"-->
+<!--                            android:padding="5dp"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_weight="1">-->
+
+<!--                            <Spinner-->
+<!--                                android:id="@+id/sIntervals"-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content" />-->
+<!--                        </LinearLayout>-->
+<!--                    </LinearLayout>-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+
+<!--            <TextView-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/colorPrimary"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="@string/description" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/eDescription"-->
+<!--                android:hint="@string/description"-->
+<!--                android:inputType="none|text|textCapSentences|textMultiLine"-->
+<!--                style="@style/WizardEditTextStyle" />-->
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+</LinearLayout>

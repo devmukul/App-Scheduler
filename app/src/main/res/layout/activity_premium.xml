@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            android:background="@color/white"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageButton-->
+<!--                android:layout_gravity="start"-->
+<!--                android:id="@+id/vClose"-->
+<!--                android:background="@null"-->
+<!--                android:padding="@dimen/view_padding"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="@dimen/view_padding"-->
+<!--                android:src="@mipmap/ic_arrow_back_black_18dp" />-->
+
+<!--            <LinearLayout-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="@dimen/view_padding"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:id="@+id/iPremiumHeader"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_lock_black_48dp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tPremiumTitle"-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/unlimited_services"-->
+<!--                        style="@style/StandardTextViewTitleStyle" />-->
+
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:id="@+id/tPremiumMessage"-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text=""-->
+<!--                        style="@style/StandardTextView3rdLevelStyle" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tPremiumDetail"-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text=""-->
+<!--                        style="@style/StandardTextView3rdLevelStyle" />-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            android:id="@+id/vPremium"-->
+<!--            android:background="@drawable/blue_500_standard_drawable"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <LinearLayout-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="@dimen/view_padding"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:id="@+id/iPremiumControlIndicator"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_verified_user_white_18dp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tPremiumControlTitle"-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/go_premium_be_happy"-->
+<!--                        style="@style/GenericWhiteTextViewTitleStyle" />-->
+
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:id="@+id/tPremiumControlMessage"-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/go_premium_one_purchase_detail"-->
+<!--                        style="@style/GenericWhiteTextView3rdLevelStyle" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tPremiumControlDetail"-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/go_premium_one_purchase_note"-->
+<!--                        style="@style/GenericWhiteTextView3rdLevelStyle" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tPremiumControlAction"-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/loading"-->
+<!--                        style="@style/GenericWhiteTextViewTitleStyle" />-->
+<!--                </LinearLayout>-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:id="@+id/iPremiumControlAction"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_keyboard_arrow_right_white_18dp" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+</ScrollView>

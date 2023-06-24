@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_circle_radius">50dp</dimen>
+    <dimen name="header_circle_radius_large">64dp</dimen>
+    <dimen name="header_circle_radius_medium">42dp</dimen>
+    <dimen name="header_circle_radius_small">38dp</dimen>
+    <dimen name="extra_circle_radius">48dp</dimen>
+    <dimen name="extra_circle_radius_small">18dp</dimen>
+    <dimen name="notification_module_padding">12dp</dimen>
+    <dimen name="notification_module_padding_large">18dp</dimen>
+    <dimen name="notification_module_padding_medium">6dp</dimen>
+    <dimen name="notification_module_padding_small">3dp</dimen>
+</resources>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            android:background="@color/white"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageButton-->
+<!--                android:layout_gravity="start"-->
+<!--                android:id="@+id/vClose"-->
+<!--                android:background="@null"-->
+<!--                android:padding="@dimen/view_padding"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="@dimen/view_padding"-->
+<!--                android:src="@mipmap/ic_arrow_back_black_18dp" />-->
+
+<!--            <LinearLayout-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="@dimen/view_padding"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_info_black_48dp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tHelpTitle"-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/no_data"-->
+<!--                        style="@style/StandardTextViewTitleStyle" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tHelpDetail"-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/no_data"-->
+<!--                        style="@style/StandardTextView3rdLevelStyle" />-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            android:id="@+id/vHelpTutorials"-->
+<!--            android:background="@drawable/blue_500_standard_drawable"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <LinearLayout-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="@dimen/view_padding"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_play_arrow_white_18dp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    <TextView-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/tutorials"-->
+<!--                        style="@style/GenericWhiteTextViewTitleStyle" />-->
+
+<!--                    <TextView-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/tutorials_info"-->
+<!--                        style="@style/GenericWhiteTextView3rdLevelStyle" />-->
+<!--                </LinearLayout>-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_keyboard_arrow_right_white_18dp" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            android:id="@+id/vHelpPermissions"-->
+<!--            android:background="@drawable/blue_500_standard_drawable"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <LinearLayout-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="@dimen/view_padding"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_warning_white_18dp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    <TextView-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/permissions"-->
+<!--                        style="@style/GenericWhiteTextViewTitleStyle" />-->
+
+<!--                    <TextView-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/permissions_info"-->
+<!--                        style="@style/GenericWhiteTextView3rdLevelStyle" />-->
+<!--                </LinearLayout>-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_keyboard_arrow_right_white_18dp" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            android:id="@+id/vHelpTroubleshooting"-->
+<!--            android:background="@drawable/blue_500_standard_drawable"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <LinearLayout-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="@dimen/view_padding"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_build_white_18dp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    <TextView-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/troubleshooting"-->
+<!--                        style="@style/GenericWhiteTextViewTitleStyle" />-->
+
+<!--                    <TextView-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/troubleshooting_info"-->
+<!--                        style="@style/GenericWhiteTextView3rdLevelStyle" />-->
+<!--                </LinearLayout>-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_keyboard_arrow_right_white_18dp" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            android:id="@+id/vHelpSupport"-->
+<!--            android:background="@drawable/blue_500_standard_drawable"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <LinearLayout-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="@dimen/view_padding"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_mail_white_18dp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    <TextView-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/contact_support"-->
+<!--                        style="@style/GenericWhiteTextViewTitleStyle" />-->
+
+<!--                    <TextView-->
+<!--                        android:padding="@dimen/module_padding_small"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/contact_support_info"-->
+<!--                        style="@style/GenericWhiteTextView3rdLevelStyle" />-->
+<!--                </LinearLayout>-->
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:padding="@dimen/view_padding"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@mipmap/ic_keyboard_arrow_right_white_18dp" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+</ScrollView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false">
+
+<!--    <RelativeLayout-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="8dp"-->
+<!--        android:layout_width="@dimen/header_circle_radius_large"-->
+<!--        android:layout_height="@dimen/header_circle_radius_large">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iIcon"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@mipmap/ic_block_black_48dp"-->
+<!--            android:layout_centerInParent="true" />-->
+<!--    </RelativeLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="6dp"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1">-->
+
+<!--        <TextView-->
+<!--            android:ellipsize="end"-->
+<!--            android:id="@+id/tName"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:singleLine="true"-->
+<!--            style="@style/StandardTextViewTitleStyle" />-->
+
+<!--        <TextView-->
+<!--            android:textStyle="bold"-->
+<!--            android:ellipsize="end"-->
+<!--            android:id="@+id/tText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:maxLines="3"-->
+<!--            style="@style/GenericGreyTextView3rdLevelStyle" />-->
+
+<!--        <TextView-->
+<!--            android:ellipsize="end"-->
+<!--            android:id="@+id/tDescription"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:maxLines="3"-->
+<!--            style="@style/GenericGreyTextView3rdLevelStyle" />-->
+
+<!--        <TextView-->
+<!--            android:textStyle="bold"-->
+<!--            android:ellipsize="end"-->
+<!--            android:id="@+id/tScheduling"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:singleLine="true"-->
+<!--            style="@style/GenericGreyTextViewSubTitleStyle" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:id="@+id/lInterval"-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@mipmap/ic_repeat_black_18dp" />-->
+
+<!--            <TextView-->
+<!--                android:textStyle="bold"-->
+<!--                android:ellipsize="end"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:id="@+id/tInterval"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:singleLine="true"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                style="@style/GenericGreyTextViewSubTitleStyle" />-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+<!--    <ImageButton-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:id="@+id/bScheduling"-->
+<!--        android:background="@drawable/pink_500_circle_drawable"-->
+<!--        android:focusable="false"-->
+<!--        android:layout_width="@dimen/header_circle_radius_medium"-->
+<!--        android:layout_height="@dimen/header_circle_radius_medium"-->
+<!--        android:layout_margin="8dp"-->
+<!--        android:src="@mipmap/ic_access_time_white_18dp" />-->
+</LinearLayout>
