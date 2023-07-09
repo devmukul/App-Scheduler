@@ -3,17 +3,27 @@ package com.devmukul.appscheduler.database
 import android.database.Cursor
 import androidx.annotation.Keep
 import androidx.room.*
+import com.devmukul.appscheduler.model.App
 import com.devmukul.appscheduler.model.Template
-
 
 @Keep
 @Dao
 interface IDaoAccess {
 
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertTemplate(template: Template)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertApp(app: App)
+
+    @Query("SELECT * FROM Templates")
+    fun getTemplates(): List<Template>
+
+    @Query("SELECT * FROM Apps")
+    fun getApps(): List<App>
 
 
-//    @Insert(onConflict = OnConflictStrategy.REPLACE)
-//    fun insertProductOrder(productOrder: ProductOrder)
+
 //
 //    @Insert(onConflict = OnConflictStrategy.REPLACE)
 //    fun insertFeedbackProduct(productOrder: List<FeedbackProductOrder>)
@@ -63,9 +73,6 @@ interface IDaoAccess {
 //
 //    @Query("DELETE FROM FeedbackTextResponse")
 //    fun clearFeedbackResponseTable()
-//
-//    @Query("SELECT * FROM ProductOrder")
-//    fun getProductOrders(): List<ProductOrder>
 //
 //    @Query("SELECT * FROM FeedbackProductOrder")
 //    fun getFeedbackProductOrders(): List<FeedbackProductOrder>

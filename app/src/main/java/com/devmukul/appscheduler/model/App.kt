@@ -6,7 +6,7 @@ import androidx.room.Entity
 import java.io.Serializable
 
 @Keep
-@Entity(tableName = "apps", primaryKeys = ["_id"])
+@Entity(tableName = "Apps", primaryKeys = ["_id"])
 data class App(
 
     @ColumnInfo(defaultValue = "")

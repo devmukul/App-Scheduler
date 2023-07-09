@@ -6,7 +6,7 @@ import androidx.room.Entity
 import java.io.Serializable
 
 @Keep
-@Entity(tableName = "apps", primaryKeys = ["_id"])
+@Entity(tableName = "Templates", primaryKeys = ["_id"])
 data class Template(
     @ColumnInfo(defaultValue = "")
     var _id: Long ,
